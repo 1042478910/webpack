@@ -9,14 +9,7 @@
     "start": "webpack-dev-server --open",
     "build": "webpack --env.production"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/1042478910/webpack.git"
-  },
   "author": "zh@o n@n",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/1042478910/webpack/issues"
-  },
-  "homepage": "https://github.com/1042478910/webpack#readme"
+  "homepage": "https://github.com/1042478910/webpack#package"
 }

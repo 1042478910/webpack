@@ -1,0 +1,22 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --env.production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1042478910/webpack.git"
+  },
+  "author": "zh@o n@n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1042478910/webpack/issues"
+  },
+  "homepage": "https://github.com/1042478910/webpack#readme"
+}

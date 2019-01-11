@@ -1,20 +1,25 @@
 <template>
     <div class="home">
-        <h1>home</h1>
+        <h1>home
+            <div :class="$style.home">title</div>
+        </h1>
     </div>
 </template>
 
 <script>
 export default {
     data() {
-        return {};
+        return {
+
+        };
     }
 };
 </script>
-
-<style>
+ 
+<style lang="scss" module>
+@import "../../css/reset.scss";
 .home {
-    color: red;
-    font-size: 80px;
+    color: blue;
+    font-size: 60px;
 }
 </style>
